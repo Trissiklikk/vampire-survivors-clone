@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.trissiklikk.load-scene-gui-unity-package": {
+      "version": "https://github.com/Trissiklikk/load-scene-gui-unity-package.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "hash": "08f5a380682c69ffa600050e7ac16721cd036f98"
+    },
     "com.unity.collab-proxy": {
       "version": "2.2.0",
       "depth": 0,
@@ -55,6 +64,13 @@
     },
     "com.unity.ide.vscode": {
       "version": "1.2.5",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
